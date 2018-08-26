@@ -9,11 +9,16 @@
  	p{
  		line-height:1.75
  	}
+
  	a
  	{color:#fed136
  	}
  	a:hover{
  		color:#fec503
+ 	}
+
+ 	.alignment{
+ 		/*text-align: justify;*/
  	}
 
  	.text-primary{
@@ -133,7 +138,7 @@
  		padding-bottom:100px
  	}
  	header.masthead .intro-text .intro-lead-in{
- 		font-size:20px;
+ 		font-size:22px;
  		font-weight:700;
  		/*font-style:italic;*/
  		line-height:22px;
@@ -142,35 +147,36 @@
  		font-family:Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif
  	}
  	header.masthead .intro-text .intro-heading{
- 		font-size:15px;
+ 		font-size:20px;
  		font-weight:600;
  		line-height:50px;
  		margin-bottom:25px;
  		color: white;
  		font-family:Caveat,'Helvetica Neue',Helvetica,Arial,sans-serif
  	}
- 	@media (min-width:768px){
+ 	
+@media (min-width: 768px) {
+  header.masthead .intro-text {
+    padding-top: 300px;
+    padding-bottom: 200px;
+  }
+  header.masthead .intro-text .intro-lead-in {
+    font-size: 75px;
+    font-weight:700;
+    line-height: 75px;
+    margin-bottom: 50px;
+    color: white;
+    font-family:Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+  }
+  header.masthead .intro-text .intro-heading {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 75px;
+    margin-bottom: 50px;
+    font-family:Caveat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+  }
+}
 
- 	header.masthead .intro-text{
- 		padding-top:300px;
- 		padding-bottom:200px
-	}
- 	header.masthead .intro-text .intro-lead-in{
-		font-size:75px;
- 		font-weight:700;
- 		line-height:75px;
- 		margin-bottom:50px;
- 		color: white;
- 		font-family:Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif}
- 	}
- 	header.masthead .intro-text .intro-heading{
- 		font-size:40px;
- 		font-weight:600;
- 		line-height:75px;
- 		margin-bottom:50px;
- 		color: white;
- 		font-family:Caveat,'Helvetica Neue',Helvetica,Arial,sans-serif}
- 	}
  	.service-heading{
  		margin:15px 0;
  		text-transform:none
@@ -244,11 +250,11 @@
  	}
  	.portfolio-modal .modal-content p{
  		margin-bottom:30px;
- 		text-align: left;
+ 		text-align: justify;
  	}
  	 	.portfolio-modal .modal-content ol{
  		margin-bottom:30px;
- 		text-align: left;
+ 		text-align: justify;
  	}
  	.portfolio-modal .modal-content p.item-intro{
  		font-size:16px;
