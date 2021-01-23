@@ -64,6 +64,8 @@
  	.btn-primary:focus{
  		box-shadow:0 0 0 .2rem rgba(254,209,55,.5)!important}::-moz-selection{background:#fed136;
  		text-shadow:none}::selection{background:#1FFFB8;text-shadow:none}img::selection{background:0 0}img::-moz-selection{background:0 0}
+
+ /**************************************MAIN NAVIGATION BAR**************************************/
  	#mainNav{
  		background-color:#212529
  	}
@@ -120,6 +122,7 @@
  				font-size:1.25em;padding:12px 0
  			}
  		}
+  /**********************************************************************************************/
 
  	header.masthead{
  		text-align:center;
