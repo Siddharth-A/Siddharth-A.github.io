@@ -71,12 +71,12 @@
  		font-family:Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif
  	}
  	#mainNav .navbar-brand{
- 		color:#fed136;
+ 		color:#1FFFB8;
  		font-family:'Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive
  	}
  	#mainNav .navbar-brand.active,#mainNav .navbar-brand:active,
  	#mainNav .navbar-brand:focus,
- 	#mainNav .navbar-brand:hover{color:#fec503}
+ 	#mainNav .navbar-brand:hover{color:#ffffff}
  	
  	#mainNav .navbar-nav .nav-item .nav-link{
  		font-size:90%;
@@ -87,7 +87,7 @@
  		font-family:Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif
  		}
  		#mainNav .navbar-nav .nav-item .nav-link.active,#mainNav .navbar-nav .nav-item .nav-link:hover{
- 			color:#fed136
+ 			color:#1FFFB8
  			}
  		@media (min-width:992px){
  			#mainNav{
@@ -147,7 +147,7 @@
  		line-height:50px;
  		margin-bottom:25px;
  		color: white;
- 		font-family:Caveat,'Helvetica Neue',Helvetica,Arial,sans-serif
+ 		font-family:'Brush Script MT';
  	}
  	@media (min-width:768px){
 
@@ -169,7 +169,7 @@
  		line-height:75px;
  		margin-bottom:50px;
  		color: white;
- 		font-family:Caveat,'Helvetica Neue',Helvetica,Arial,sans-serif}
+ 		font-family:'Brush Script MT';
  	}
  	.service-heading{
  		margin:15px 0;

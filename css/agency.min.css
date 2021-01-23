@@ -63,7 +63,7 @@
  	.btn-primary:active,
  	.btn-primary:focus{
  		box-shadow:0 0 0 .2rem rgba(254,209,55,.5)!important}::-moz-selection{background:#fed136;
- 		text-shadow:none}::selection{background:#fed136;text-shadow:none}img::selection{background:0 0}img::-moz-selection{background:0 0}
+ 		text-shadow:none}::selection{background:#1FFFB8;text-shadow:none}img::selection{background:0 0}img::-moz-selection{background:0 0}
  	#mainNav{
  		background-color:#212529
  	}
@@ -76,12 +76,12 @@
  		font-family:Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif
  	}
  	#mainNav .navbar-brand{
- 		color:#fed136;
+ 		color:#1FFFB8;
  		font-family:'Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive
  	}
  	#mainNav .navbar-brand.active,#mainNav .navbar-brand:active,
  	#mainNav .navbar-brand:focus,
- 	#mainNav .navbar-brand:hover{color:#fec503}
+ 	#mainNav .navbar-brand:hover{color:#ffffff}
  	
  	#mainNav .navbar-nav .nav-item .nav-link{
  		font-size:90%;
@@ -92,7 +92,7 @@
  		font-family:Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif
  		}
  		#mainNav .navbar-nav .nav-item .nav-link.active,#mainNav .navbar-nav .nav-item .nav-link:hover{
- 			color:#fed136
+ 			color:#1FFFB8
  			}
  		@media (min-width:992px){
  			#mainNav{
@@ -143,16 +143,17 @@
  		/*font-style:italic;*/
  		line-height:22px;
  		margin-bottom:25px;
- 		color: white;
+ 		color: #ffffff;
  		font-family:Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif
  	}
  	header.masthead .intro-text .intro-heading{
  		font-size:20px;
- 		font-weight:600;
+ 		font-weight:400;
  		line-height:50px;
  		margin-bottom:25px;
  		color: white;
- 		font-family:Caveat,'Helvetica Neue',Helvetica,Arial,sans-serif
+ 		font-style: italic;
+ 		font-family:'Brush Script MT';
  	}
  	
 @media (min-width: 768px) {
@@ -161,22 +162,49 @@
     padding-bottom: 200px;
   }
   header.masthead .intro-text .intro-lead-in {
-    font-size: 75px;
+    font-size: 70px;
     font-weight:700;
     line-height: 75px;
     margin-bottom: 50px;
-    color: white;
+    color: #ffffff;
     font-family:Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
   }
   header.masthead .intro-text .intro-heading {
     font-size: 40px;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 75px;
     margin-bottom: 50px;
-    font-family:Caveat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-style: italic;
+    font-family:'Brush Script MT';
   }
 }
+    #overview-img-amd{
+ 		width:120px;
+ 		height:55px;
+ 		display: block;
+  		margin-left: auto;
+  		margin-right: auto;
+    }
+    #overview-img-celestica{
+ 		width:150px;
+ 		height:60px;
+ 		display: block;
+  		margin-left: auto;
+  		margin-right: auto;
+    }
+    #overview-img-ryerson{
+ 		width:120px;
+ 		height:60px;
+ 		display: block;
+  		margin-left: auto;
+  		margin-right: auto;
+    }
 
+    #logos{
+    	/*padding:20px;*/
+    	width:20px;
+    }
+    
  	.service-heading{
  		margin:15px 0;
  		text-transform:none
@@ -496,7 +524,7 @@
  		outline:0;
  		background-color:#212529;
  	}
- 	ul.social-buttons li a:active,ul.social-buttons li a:focus,ul.social-buttons li a:hover{background-color:#fed136}
+ 	ul.social-buttons li a:active,ul.social-buttons li a:focus,ul.social-buttons li a:hover{background-color:#1FFFB8}
  	.xcontainer {
 	  padding: 10px 50px;
 	  text-align: center;
