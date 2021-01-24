@@ -4,9 +4,9 @@ var typewriter = new Typewriter(app, {
     loop: true
 });
 
-typewriter.typeString('Software Developer.')
+typewriter.typeString('SOFTWARE ENGINEER.')
     .pauseFor(500)
     .deleteAll()
-    .typeString('Electrical Engineer.')
+    .typeString('ELECTRICAL ENGINEER.')
     .pauseFor(500)
     .start();
