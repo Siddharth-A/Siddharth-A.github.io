@@ -4,7 +4,7 @@ var typewriter = new Typewriter(app, {
     loop: true
 });
 
-typewriter.typeString('SOFTWARE ENGINEER.')
+typewriter.typeString('SOFTWARE DEVELOPER.')
     .pauseFor(500)
     .deleteAll()
     .typeString('ELECTRICAL ENGINEER.')
