@@ -2,7 +2,7 @@ var app = document.getElementById('app');
 
 var typewriter = new Typewriter(app, {
     // loop: true
-    delay: 50
+    delay: 30
 });
 
 typewriter.typeString('Hi!')

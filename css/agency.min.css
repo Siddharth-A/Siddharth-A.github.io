@@ -846,6 +846,162 @@ font-family: 'Source Sans Pro',sans-serif;;
   margin-bottom: 40px;
 }
 
+/* Projects Section Styling */
+#portfolio {
+  padding: 80px 0;
+}
+
+#portfolio .portfolio-item {
+  margin-bottom: 30px;
+  transition: all 0.3s ease;
+}
+
+#portfolio .portfolio-item:hover {
+  transform: translateY(-5px);
+}
+
+#portfolio .portfolio-link {
+  position: relative;
+  display: block;
+  max-width: 400px;
+  margin: 0 auto;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#portfolio .portfolio-link .portfolio-hover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s ease;
+  opacity: 0;
+  background: rgba(34, 242, 44, 0.9);
+}
+
+#portfolio .portfolio-link:hover .portfolio-hover {
+  opacity: 1;
+}
+
+#portfolio .portfolio-link .portfolio-hover .portfolio-hover-content {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  height: 20px;
+  margin-top: -12px;
+  text-align: center;
+  color: #fff;
+}
+
+#portfolio .portfolio-link .portfolio-hover .portfolio-hover-content i {
+  margin-top: -12px;
+  font-size: 48px;
+}
+
+#portfolio .portfolio-caption {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 25px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+#portfolio .portfolio-caption:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#portfolio .portfolio-caption h4 {
+  margin: 0;
+  text-transform: none;
+  color: #22f22c;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+#portfolio .portfolio-caption p {
+  font-size: 16px;
+  font-style: italic;
+  margin: 10px 0 0;
+  color: #6c757d;
+}
+
+#portfolio .section-heading {
+  margin-bottom: 50px;
+}
+
+#portfolio .section-subheading {
+  margin-bottom: 40px;
+}
+
+.project-page {
+  padding: 100px 0;
+  background-color: #000000;
+}
+
+.project-content {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin-top: 30px;
+  transition: all 0.3s ease;
+}
+
+.project-content:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-content img {
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+.project-details h4 {
+  color: #22f22c;
+  font-family: 'Courier New', monospace;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.project-details p {
+  color: #6c757d;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.project-details ul {
+  color: #6c757d;
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+.project-details ul li {
+  margin-bottom: 10px;
+}
+
+.project-meta {
+  background-color: rgba(255, 255, 255, 0.03);
+  border-radius: 4px;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.project-meta p {
+  margin-bottom: 10px;
+}
+
+.project-meta strong {
+  color: #22f22c;
+  font-family: 'Courier New', monospace;
+}
+
 
 
 
