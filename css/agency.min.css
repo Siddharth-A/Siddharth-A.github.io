@@ -594,6 +594,76 @@ color: #16a085;
 font-family: 'Source Sans Pro',sans-serif;;
 }
 
+/* Work Experience Section Styling */
+.work-company {
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.05);
+  transition: all 0.3s ease;
+}
+
+.work-company:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.work-company img {
+  transition: all 0.3s ease;
+  filter: grayscale(100%);
+}
+
+.work-company:hover img {
+  filter: grayscale(0%);
+}
+
+.work-title {
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #22f22c;
+  margin-bottom: 10px;
+  display: inline-block;
+  width: 60%;
+}
+
+.work-date {
+  color: #6c757d;
+  font-style: italic;
+  display: inline-block;
+  margin-bottom: 15px;
+  width: 40%;
+  text-align: right;
+  float: right;
+}
+
+.work-description {
+  color: #6c757d;
+  clear: both;
+}
+
+.work-description ul {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.work-description li {
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
+
+.work-description li:last-child {
+  margin-bottom: 0;
+}
+
+#work .section-heading {
+  margin-bottom: 50px;
+}
+
+#work .section-subheading {
+  margin-bottom: 40px;
+}
+
 
 
 
