@@ -782,6 +782,70 @@ font-family: 'Source Sans Pro',sans-serif;;
   margin-bottom: 0;
 }
 
+/* Education Section Styling */
+.education-card {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  padding: 30px;
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
+}
+
+.education-card:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.education-title {
+  color: #22f22c;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.3em;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.education-timeline {
+  color: #6c757d;
+  font-style: italic;
+  margin-bottom: 20px;
+  font-size: 1.1em;
+}
+
+.education-description {
+  color: #6c757d;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.education-courses {
+  background-color: rgba(255, 255, 255, 0.03);
+  border-radius: 6px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.education-courses-title {
+  color: #22f22c;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.1em;
+  margin-bottom: 15px;
+}
+
+.education-courses-list {
+  color: #6c757d;
+  font-style: italic;
+  line-height: 1.6;
+}
+
+#education .section-heading {
+  margin-bottom: 50px;
+}
+
+#education .section-subheading {
+  margin-bottom: 40px;
+}
+
 
 
 
