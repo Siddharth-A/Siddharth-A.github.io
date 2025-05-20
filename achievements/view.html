@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="description" content="View Achievement - Siddharth A.">
+    <meta name="author" content="Siddharth A.">
+    <title>View Achievement - Siddharth A.</title>
+    <link rel="icon" href="../img/cpu-icon.png">
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <link href="../css/agency.min.css" rel="stylesheet"/>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background: #000;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+      }
+      #image-container {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        box-sizing: border-box;
+      }
+      #achievement-image {
+        max-width: 100%;
+        max-height: calc(100vh - 100px);
+        object-fit: contain;
+        background: #fff;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        border-radius: 8px;
+      }
+      .back-button {
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        z-index: 1000;
+        background: rgba(34, 242, 44, 0.2);
+        color: #22f22c;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        font-family: 'Courier New', Courier, monospace;
+        border: 1px solid rgba(34, 242, 44, 0.3);
+      }
+      .back-button:hover {
+        background: rgba(34, 242, 44, 0.3);
+        color: #22f22c;
+        text-decoration: none;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(34, 242, 44, 0.2);
+      }
+      .loading {
+        color: #22f22c;
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body class="achievement-viewer">
+    <a href="../index.html#achievements" class="back-button">
+      <i class="fa fa-arrow-left"></i> Back to Achievements
+    </a>
+    <div id="image-container">
+      <img id="achievement-image" src="" alt="Achievement Certificate" />
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <span class="copyright">© 2024 Siddharth A. All rights reserved.</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <style>
+        .footer {
+            background-color: #000000;
+        }
+    </style>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const urlParams = new URLSearchParams(window.location.search);
+        const imageUrl = urlParams.get('image');
+        
+        if (!imageUrl) {
+          window.location.href = '../index.html#achievements';
+          return;
+        }
+        
+        const img = document.getElementById('achievement-image');
+        img.src = imageUrl;
+        
+        img.onerror = function() {
+          window.location.href = '../index.html#achievements';
+        };
+      });
+    </script>
+  </body>
+</html> 

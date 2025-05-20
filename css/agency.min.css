@@ -1195,6 +1195,63 @@ footer .copyright {
   font-family: 'Courier New', Courier, monospace;
 }
 
+.achievement-viewer {
+  margin: 0;
+  padding: 0;
+  background: #000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.achievement-viewer #image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.achievement-viewer #achievement-image {
+  max-width: 100%;
+  max-height: calc(100vh - 100px);
+  object-fit: contain;
+  background: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+}
+
+.achievement-viewer .back-button {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1000;
+  background: rgba(34, 242, 44, 0.2);
+  color: #22f22c;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-family: 'Courier New', Courier, monospace;
+  border: 1px solid rgba(34, 242, 44, 0.3);
+}
+
+.achievement-viewer .back-button:hover {
+  background: rgba(34, 242, 44, 0.3);
+  color: #22f22c;
+  text-decoration: none;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(34, 242, 44, 0.2);
+}
+
+.achievement-viewer .loading {
+  color: #22f22c;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  padding: 20px;
+}
+
 
 
 
