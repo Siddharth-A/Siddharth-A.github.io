@@ -200,6 +200,12 @@
 		font-family: 'Courier New', Courier, monospace;
 	}
 
+    #overview-img-tenstorrent{
+ 		width: 160px;
+ 		height: auto;
+ 		display: block;
+ 		object-fit: contain;
+    }
     #overview-img-amd{
  		width:160px;
  		height:40px;
